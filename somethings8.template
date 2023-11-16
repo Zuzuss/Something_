@@ -5,7 +5,7 @@ ttt
 {{printf "%s" "ssti" }} 2
 
 test
-
+{{ .Subject }}
 
 {{.builtinUiUrl}}
 {{.builtinUiUrl}}

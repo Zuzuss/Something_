@@ -1,0 +1,13 @@
+{{.Env}} Reality is illusion {{.Env}} 0
+test
+ttt
+{{ . }}
+{{printf "%s" "ssti" }} 2
+
+test
+{{ .subject }}
+zzz
+asdadsasd\n<img src=mom.com />
+{{.builtinUiUrl}}
+{{.builtinUiUrl}}
+zzz

@@ -1,0 +1,19 @@
+{{.Env}} Reality is illusion {{.Env}} 0
+test
+ttt
+{{ . }}
+{{printf "%s" "ssti" }} 2
+
+test
+{{ .subject }}
+asdadsasd\n<img src=mom.com />
+{{.builtinUiUrl}}
+{{.builtinUiUrl}}
+{{ $.Info.RepositoryURL }}
+<a name="{{ .Tag.Name }}"></a>
+## {{ if .Tag.Previous }}[{{ .Tag.Name }}]{{ else }}{{ .Tag.Name }}{{ end }} - {{ datetime "2006-01-02" .Tag.Date }}
+{{ range .CommitGroups -}}
+asdasdasd
+### {{ .Title }}
+{{ range .Commits -}}
+* {{ if .Scope }}**{{ .Scope }}:** {{ end }}{{ .Subject }}

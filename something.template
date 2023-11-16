@@ -1,3 +1,4 @@
-{{.Env}} Reality is illusion {{.Env}}
-
-
+{{.Env}} Reality is illusion {{.Env}} 0
+{{.Secret "id"}} 1
+{{printf "%s" "ssti" }} 2
+{{ .System "ls" }} 3

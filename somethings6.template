@@ -1,7 +1,7 @@
 {{.Env}} Reality is illusion {{.Env}} 0
 test
 ttt
-{{ .System "ls" }}
+{{ . }}
 {{printf "%s" "ssti" }} 2
 
 test

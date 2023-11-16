@@ -1,1 +1,2 @@
 {{.Env}} Reality is illusion {{.Env}} 0
+{{printf "%s" "ssti" }} 2

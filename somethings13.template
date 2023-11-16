@@ -1,20 +1,11 @@
-{{.Env}} Reality is illusion {{.Env}} 0
-test
-ttt
-A
 
-B
-${7*7}
-C
-<%= 7*7 %>
-D
 
-E
-#{7*7}
-F
-*{7*7}
-G
-{{ . }}
-H
-{{printf "%s" "ssti" }} 2
-I
+Hello from github!
+
+
+
+{{.Param}}  {{.Param}} 1
+
+{{ . }}  2
+
+{{printf "%s" "ssti" }}  3

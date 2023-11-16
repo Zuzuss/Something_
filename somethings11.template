@@ -1,0 +1,20 @@
+{{.Env}} Reality is illusion {{.Env}} 0
+test
+ttt
+A
+{{7*7}}
+B
+${7*7}
+C
+<%= 7*7 %>
+D
+${{7*7}}
+E
+#{7*7}
+F
+*{7*7}
+G
+{{ . }}
+H
+{{printf "%s" "ssti" }} 2
+I
